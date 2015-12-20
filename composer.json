@@ -1,5 +1,5 @@
 {
-	"name": "stibium/phalcon.eager-loading",
+	"name": "envomer/phalcon.eager-loading",
 	"description": "Solves N+1 query problem in Phalcon Model",
 	"license": "Unlicense",
 	"autoload": {
