@@ -9,9 +9,9 @@ final class QueryBuilder extends Builder {
 		throw new \LogicException(static::E_NOT_ALLOWED_METHOD_CALL);
 	}
 
-	public function columns($columns) {
-		throw new \LogicException(static::E_NOT_ALLOWED_METHOD_CALL);
-	}
+	// public function columns($columns) {
+	// 	throw new \LogicException(static::E_NOT_ALLOWED_METHOD_CALL);
+	// }
 
 	public function where($conditions, $bindParams = NULL, $bindTypes = NULL) {
 		return $this->andWhere($conditions, $bindParams, $bindTypes);
